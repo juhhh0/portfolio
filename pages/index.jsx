@@ -10,10 +10,10 @@ export default function Home() {
           <p>Developpeur JS / React</p>
         </div>
         <h2 className="display text-3xl py-4">En ce moment</h2>
-        <p>Je finis mon alternance chez Prodigious en début d'année 2024 en même temps que ma certification Developpeur Web et Web mobile chez Simplon.</p>
-        <p>Durant cette année d'alternance j'ai pu travailler sur de gros projets en React JS et c'est dans cette voie que j'aimerai me spécialiser</p>
+        <p>Je finis mon alternance chez Prodigious en début d&apos;année 2024 en même temps que ma certification Developpeur Web et Web mobile chez Simplon.</p>
+        <p>Durant cette année d&apos;alternance j&apos;ai pu travailler sur de gros projets en React JS et c&apos;est dans cette voie que j&apos;aimerai me spécialiser</p>
         <h2 className="display text-3xl py-4">Mes réalisations pros</h2>
-        <p>Durant mon année a Prodigious j'ai pu travailler sur deux sites principalement:</p>
+        <p>Durant mon année a Prodigious j&apos;ai pu travailler sur deux sites principalement:</p>
         <div className="md:flex">
 
           <HomeArticle
