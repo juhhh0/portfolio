@@ -33,9 +33,15 @@ nav, main{
 }
 
 .thumbnail > p{
-    @apply p-3 relative z-10;
+    @apply p-3 relative z-10 invisible;
+
 }
 
+.thumbnail:hover > p{
+    @apply visible;
+} 
+
 .thumbnail > img{
-    @apply rounded-lg opacity-60 border absolute;
+    @apply rounded-lg opacity-60 md:opacity-100 md:hover:opacity-60 border absolute;
+    transition: .5s ease;
 }

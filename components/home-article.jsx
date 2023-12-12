@@ -16,10 +16,10 @@ export default function HomeArticle({ title, link, children, stacks, img, desc }
                         </a>
                     ) : (
                         <>
-                        <div className="thumbnail">
-                            <img src={img} alt={`${title} thumbnail`} />
-                            <p className="">sortie courant 2024</p>
-                        </div>
+                            <div className="thumbnail">
+                                <img src={img} alt={`${title} thumbnail`} />
+                                <p className="">sortie courant 2024</p>
+                            </div>
                         </>
                     )
                     }
@@ -30,11 +30,11 @@ export default function HomeArticle({ title, link, children, stacks, img, desc }
                     <p className="py-1">{stacks.join(", ")}</p>
                 </li>
                 <li>
-                <Badge label="Tasks" color="green" />
-                <div className="py-1">
+                    <Badge label="Tasks" color="green" />
+                    <div className="py-1">
+                        {children}
+                    </div>
 
-                    {children}
-                </div>
                 </li>
             </ul>
         </article>
