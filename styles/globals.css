@@ -1,26 +1,41 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Dosis';
+    src: url('/Dosis-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    @apply bg-white dark:bg-black text-black dark:text-white;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+nav, main{
+    @apply max-w-3xl m-auto p-3;
 }
 
-* {
-  box-sizing: border-box;
+.display{
+    font-family: 'Dosis', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.home-article{
+    @apply px-3 py-4 md:w-1/2 max-w-[450px] m-auto;
+}
+
+.home-article > ul > li{
+    @apply py-1;
+}
+
+.thumbnail{
+    @apply m-auto max-w-[320px] aspect-video relative flex justify-center items-end;
+}
+
+.thumbnail > p{
+    @apply p-3 relative z-10;
+}
+
+.thumbnail > img{
+    @apply rounded-lg opacity-60 border absolute;
 }
