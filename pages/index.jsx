@@ -47,7 +47,7 @@ export default function Home() {
 
         </div>
 
-        <p>En 2021, j&apos;ai pu effectuer un stage d'intégrateur web auprès d'un auto-entrepeneur, j'ai pu participé à la publication de deux sites :</p>
+        <p>En 2021, j&apos;ai pu effectuer un stage d&apos;intégrateur web auprès d&apos;un auto-entrepeneur, j&apos;ai pu participé à la publication de deux sites :</p>
         <div className="md:flex">
 
           <HomeArticle
@@ -55,7 +55,7 @@ export default function Home() {
             link="https://isec.re/"
             stacks={["CMS"]}
             img="/isec-thumbnail.png"
-            desc="Creation d'un site pour l'école ISEC basé à la Reunion"
+            desc="Creation d&apos;un site pour l'école ISEC basé à la Reunion"
           >
             <p>Création du site avec CMS</p>
           </HomeArticle>
@@ -64,7 +64,7 @@ export default function Home() {
             link="https://revesderesidents.com/"
             stacks={["CMS"]}
             img="/reves-de-residents-thumbnail.png"
-            desc="Création d'un blog pour l'association ORPEA "
+            desc="Création d&apos;un blog pour l'association ORPEA "
           >
             <p>Création du site avec CMS</p>
           </HomeArticle>
