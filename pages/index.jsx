@@ -1,8 +1,17 @@
 import HomeArticle from "../components/home-article";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Joris dev</title>
+        <meta
+          name="description"
+          content="Mon portfolio developpeur javascript, React"
+          key="desc"
+        />
+      </Head>
       <div>
         <p className="text-center underline underline-offset-2">Je suis disponible dès fevrier 2024 !</p>
         <div className="text-center pt-3">
