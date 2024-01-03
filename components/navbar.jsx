@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <nav className="flex gap-6 relative items-center">
             <Link href="/"><h1 className="display text-xl">Joris M.</h1></Link>
-            <Link href="/perso" className="underline underline-offset-2">Projets persos</Link>
+            {/* <Link href="/perso" className="underline underline-offset-2">Projets persos</Link> */}
             <div className="flex gap-2 items-center absolute right-3">
                 <a target="_blank" href="https://github.com/juhhh0">
                     <svg className="w-7 h-7" fill={dark ? "rgb(246, 248, 250)" : "rgb(13, 17, 23)"} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
