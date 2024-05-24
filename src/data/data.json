@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "title": "Project 1"
+        },
+        {
+            "title": "Project 2"
+        },
+        {
+            "title": "Project 3"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Skill 1"
+        },
+        {
+            "title": "Skill 2"
+        },
+        {
+            "title": "Skill 3"
+        }
+    ]
+}
