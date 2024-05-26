@@ -11,7 +11,7 @@ export default function ProjectDescription({
 }) {
   return (
     <section
-      className={`fixed z-10 top-0 left-0 w-full h-full text-white ${
+      className={`fixed z-10 top-0 left-0 w-full h-full ${
         active
           ? "opacity-1 pointer-events-auto"
           : "opacity-0 pointer-events-none"
