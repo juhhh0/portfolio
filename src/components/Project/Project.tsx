@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Card from "./ui/Card";
+import Card from "../ui/Card";
 import ProjectDescription from "./ProjectDescription";
 import PixelBackground from "./PixelBackground";
 import { ProjectType } from "@/types/types";

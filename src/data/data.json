@@ -12,13 +12,70 @@
     ],
     "skills": [
         {
-            "title": "Skill 1"
+            "id": 1,
+            "title": "React JS",
+            "icon": "react.svg",
+            "category": "frontend"
         },
         {
-            "title": "Skill 2"
+            "id": 2,
+            "title": "Next JS",
+            "icon": "next.svg",
+            "category": "frontend"
         },
         {
-            "title": "Skill 3"
+            "id": 3,
+            "title": "Tailwind CSS",
+            "icon": "tailwind.svg",
+            "category": "design"
+        },
+        {
+            "id": 4,
+            "title": "Typescript",
+            "icon": "typescript.svg",
+            "category": "frontend"
+        },
+        {
+            "id": 5,
+            "title": "Node JS",
+            "icon": "node.svg",
+            "category": "backend"
+        },
+        {
+            "id": 6,
+            "title": "Strapi",
+            "icon": "strapi.svg",
+            "category": "backend"
+        },
+        {
+            "id": 7,
+            "title": "Contentful",
+            "icon": "contentful.svg",
+            "category": "backend"
+        },
+        {
+            "id": 8,
+            "title": "Github CI/CD",
+            "icon": "github.svg",
+            "category": "devops"
+        },
+        {
+            "id": 9,
+            "title": "Bitbucket / Jira",
+            "icon": "atlassian.svg",
+            "category": "devops"
+        },
+        {
+            "id": 10,
+            "title": "Docker",
+            "icon": "docker.svg",
+            "category": "devops"
+        },
+        {
+            "id": 11,
+            "title": "Nginx",
+            "icon": "nginx.svg",
+            "category": "devops"
         }
     ]
 }

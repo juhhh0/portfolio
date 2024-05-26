@@ -5,3 +5,15 @@
 .profile-picture{
   background-image: url('/pic.jpeg');
 }
+
+h1 {
+  @apply font-bold text-3xl md:text-6xl
+}
+
+h2 {
+  @apply font-semibold text-xl md:text-3xl
+}
+
+h3 {
+  @apply font-medium text-lg md:text-xl
+}
