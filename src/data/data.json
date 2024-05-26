@@ -24,11 +24,11 @@
       "skills": [2, 3, 4, 9]
     },
     {
-      "title": "Colas Rail",
+      "title": "Colas",
       "date": "2024",
       "icon": "colas.svg",
       "image": "colas.svg",
-      "link": "https://colasrail.com/",
+      "link": "https://www.solutions-colas.com/fr/",
       "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
       "content": "Hello Colas",
       "screens": ["colas-home.png", "colas-article.png", "colas-reseau.png"],

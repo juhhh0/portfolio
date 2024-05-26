@@ -42,7 +42,7 @@ export default function ProjectDescription({
         >
           <img className="h-16" src={"/icons/" + project.image} alt="" />
           <h2 className="py-2 text-3xl">{project.title}</h2>
-          <a href={project.link}>{project.link}</a>
+          <a target="_blank" className="underline opacity-55" href={project.link}>{project.link}</a>
           <p className="py-2">{project.description}</p>
           <Carousel data={project.screens}/>
         </motion.div>
@@ -50,7 +50,7 @@ export default function ProjectDescription({
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         >
           <h3 className="pt-3 pb-2 text-2xl">Mes réalisations</h3>
-          <span>{project.date}</span>
+          <span className="opacity-55">{project.date}</span>
           <ul className="flex flex-wrap gap-4 md:justify-between py-4">
             {skills?.map((skill) => (
               <IconLabel
