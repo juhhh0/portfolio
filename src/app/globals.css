@@ -6,6 +6,9 @@ body:has(.project-active){
   overflow: hidden;
 }
 
+.slick-arrow{
+  display: none !important;
+}
 
 .profile-picture{
   background-image: url('/pic.jpeg');
