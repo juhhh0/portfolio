@@ -2,22 +2,34 @@
   "projects": [
     {
       "title": "Essec Business School",
+      "date": "2023 - 2024",
+      "link": "https://www.essec.edu",
       "icon": "essec.png",
       "cardColor": "#1DA1E1",
-      "content": "Hello Essec",
-      "screens": ["essec-home.png", "essec-programs.png"]
+      "description": "Le site de l’essec a pour but de referencer les programmes, partager des actualites",
+      "content": "Lors de mon expérience chez Prodigious (Publicis Groupe), j’ai travailler principalement sur le site de l’essec en gérant le projet dans sa globalité. J’étais en charge de la configuration du CMS, la récupération des données côté serveur puis de l’intégration et la dynamisation des composants.",
+      "screens": ["essec-home.png", "essec-programme.png"],
+      "skills": [1, 2, 5, 7, 9, 11]
     },
     {
       "title": "Samsung Members",
+      "date": "2023",
+      "link": "https://www.members.samsung.fr",
       "icon": "samsung.png",
+      "description": "Le site Samsung a pour but de referencer les programmes, partager des actualites",
       "content": "Hello Samsung",
-      "screens": ["essec-home.png", "essec-programs.png"]
+      "screens": ["essec-home.png", "essec-programs.png"],
+      "skills": [2, 3, 4, 9]
     },
     {
       "title": "Colas Rail",
+      "date": "2024",
       "icon": "colas.png",
+      "link": "https://colasrail.com/",
+      "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
       "content": "Hello Colas",
-      "screens": ["essec-home.png", "essec-programs.png"]
+      "screens": ["essec-home.png", "essec-programs.png"],
+      "skills": [2, 3, 4, 7, 9]
     }
   ],
   "skills": [

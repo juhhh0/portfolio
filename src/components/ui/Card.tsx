@@ -1,11 +1,13 @@
-import { ProjectType } from "@/types/types";
+import { ProjectType, SkillType } from "@/types/types";
 import React from "react";
 
 export default function Card({
   project,
+  skills,
   setActive,
 }: {
   project: ProjectType;
+  skills?: SkillType[]
   setActive: (active: boolean) => void;
 }) {
   return (
