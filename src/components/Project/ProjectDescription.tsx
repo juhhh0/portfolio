@@ -27,7 +27,7 @@ export default function ProjectDescription({
   return (
     <section
       className={`fixed z-20 top-0 left-0 w-full h-full overflow-scroll ${
-        active ? "pointer-events-auto" : "pointer-events-none"
+        active ? "pointer-events-auto project-active" : "pointer-events-none"
       }`}
     >
       <motion.div
