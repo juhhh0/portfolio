@@ -20,7 +20,7 @@
       "image": "samsungmembers.svg",
       "description": "Le site Samsung a pour but de referencer les programmes, partager des actualites",
       "content": "Hello Samsung",
-      "screens": ["essec-home.png", "essec-programs.png"],
+      "screens": ["samsung-home.png", "samsung-tutos.png", "samsung-article.png"],
       "skills": [2, 3, 4, 9]
     },
     {
@@ -31,7 +31,7 @@
       "link": "https://colasrail.com/",
       "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
       "content": "Hello Colas",
-      "screens": ["essec-home.png", "essec-programs.png"],
+      "screens": ["colas-home.png", "colas-article.png", "colas-reseau.png"],
       "skills": [2, 3, 4, 7, 9]
     }
   ],
