@@ -1,6 +1,7 @@
 export type ProjectType = {
     title: string;
     icon: string;
+    image?: string;
     description: string;
     content: string;
     screenshots: { src: string; title: string }[];

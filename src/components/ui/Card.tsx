@@ -18,7 +18,7 @@ export default function Card({
         setActive(true);
       }}
     >
-      <img src={"/icons/" + project.icon} alt="" />
+      <img className="h-12" src={"/icons/" + project.icon} alt="" />
       <ul className="absolute flex bottom-0 left-0 gap-2 opacity-65 p-2">
         {skills?.map((skill) => (
           <li key={skill.id}>
