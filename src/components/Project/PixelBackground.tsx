@@ -54,7 +54,7 @@ export default function PixelBackground({
   };
 
   return (
-    <div className="flex h-screen overflow-hidden absolute top-0 left-0 pointer-events-none">
+    <div className="flex h-screen overflow-hidden fixed top-0 left-0 pointer-events-none">
       {[...Array(20)].map((_, index) => {
         return (
           <div key={index} className="w-[5vw] h-full flex flex-col">
