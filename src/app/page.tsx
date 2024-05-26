@@ -12,7 +12,8 @@ export default async function Home() {
     <main className="pt-12 max-w-4xl mx-auto">
       <Profile />
       <Skills skills={data.skills} />
-      <section className="flex flex-wrap gap-6 w-full justify-center">
+      <h2 className="pb-6 px-4">Mes projets</h2>
+      <section className="pb-12 flex flex-wrap gap-6 w-full justify-center">
         {data.projects.map((project: ProjectType, i: number) => (
           <Project key={i} project={project} />
         ))}
