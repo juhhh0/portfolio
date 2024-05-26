@@ -62,6 +62,7 @@ export default function ProjectDescription({
           <ul className="flex flex-wrap gap-4 md:justify-between py-4">
             {skills?.map((skill) => (
               <IconLabel
+                key={skill.id}
                 label={skill.title}
                 icon={"/icons/" + skill.icon + ".svg"}
               />

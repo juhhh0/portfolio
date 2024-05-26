@@ -14,7 +14,7 @@ export default function SkillsCategory({
       <h3 className="pb-2">{title}</h3>
       <ul className="flex flex-col gap-2">
         {data.map((skill) => (
-          <IconLabel label={skill.title} icon={"/icons/" + skill.icon + ".svg"} />
+          <IconLabel key={skill.id} label={skill.title} icon={"/icons/" + skill.icon + ".svg"} />
         ))}
       </ul>
     </div>
