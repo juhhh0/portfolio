@@ -23,7 +23,7 @@ export default function ProjectDescription({
 }) {
   return (
     <section
-      className={`fixed z-10 top-0 left-0 w-full h-full overflow-scroll ${
+      className={`fixed z-20 top-0 left-0 w-full h-full overflow-scroll ${
         active
           ? "pointer-events-auto"
           : "pointer-events-none"
@@ -56,7 +56,7 @@ export default function ProjectDescription({
           <span>{project.date}</span>
           <ul className="flex flex-wrap gap-4 md:justify-between py-4">
             {skills?.map((skill) => (
-              <IconLabel label={skill.title} icon={"/icons/" + skill.icon} />
+              <IconLabel label={skill.title} icon={"/icons/" + skill.icon + ".svg"} />
             ))}
           </ul>
           <p>{project.content}</p>

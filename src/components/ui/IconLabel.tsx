@@ -9,7 +9,7 @@ export default function IconLabel({
 }) {
   return (
     <li className="flex gap-2 items-center">
-      <img className="w-6 md:w-8" src={icon} alt="" />
+      <img className="w-6 md:w-7" src={icon} alt="" />
       <span className="font-medium">{label}</span>
     </li>
   );

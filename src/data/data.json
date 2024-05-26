@@ -36,67 +36,67 @@
     {
       "id": 1,
       "title": "React JS",
-      "icon": "react.svg",
+      "icon": "react",
       "category": "frontend"
     },
     {
       "id": 2,
       "title": "Next JS",
-      "icon": "next.svg",
+      "icon": "next",
       "category": "frontend"
     },
     {
       "id": 3,
       "title": "Tailwind",
-      "icon": "tailwind.svg",
+      "icon": "tailwind",
       "category": "design"
     },
     {
       "id": 4,
       "title": "Typescript",
-      "icon": "typescript.svg",
+      "icon": "typescript",
       "category": "frontend"
     },
     {
       "id": 5,
       "title": "Node JS",
-      "icon": "node.svg",
+      "icon": "node",
       "category": "backend"
     },
     {
       "id": 6,
       "title": "Strapi",
-      "icon": "strapi.svg",
+      "icon": "strapi",
       "category": "backend"
     },
     {
       "id": 7,
       "title": "Contentful",
-      "icon": "contentful.svg",
+      "icon": "contentful",
       "category": "backend"
     },
     {
       "id": 8,
       "title": "Github CI/CD",
-      "icon": "github.svg",
+      "icon": "github",
       "category": "devops"
     },
     {
       "id": 9,
       "title": "Bitbucket / Jira",
-      "icon": "atlassian.svg",
+      "icon": "atlassian",
       "category": "devops"
     },
     {
       "id": 10,
       "title": "Docker",
-      "icon": "docker.svg",
+      "icon": "docker",
       "category": "devops"
     },
     {
       "id": 11,
       "title": "Nginx",
-      "icon": "nginx.svg",
+      "icon": "nginx",
       "category": "devops"
     }
   ]
