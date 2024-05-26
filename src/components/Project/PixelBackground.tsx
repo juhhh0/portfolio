@@ -30,6 +30,7 @@ export default function PixelBackground({ active }: { active: boolean }) {
   };
 
   const getBlocks = () => {
+    if(typeof window === "undefined") return null;
     const { innerWidth, innerHeight } = window;
     const blockSize = innerWidth * 0.05;
     const nbOfBlocks = Math.ceil(innerHeight / blockSize);

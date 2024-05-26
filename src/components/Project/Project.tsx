@@ -9,7 +9,6 @@ import { ProjectType, SkillType } from "@/types/types";
 export default function Project({ project, skills }: { project: ProjectType, skills?: SkillType[] }) {
   const [active, setActive] = useState(false);
 
-  console.log(skills)
   return (
     <>
       <Card project={project} skills={skills} setActive={setActive} />
