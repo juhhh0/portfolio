@@ -11,7 +11,7 @@ export default function ProjectDescription({
   project: any;
   skills?: SkillType[];
   active: boolean;
-  setActive: (active: boolean) => void;
+  setActive: () => void;
 }) {
   return (
     <section
@@ -46,9 +46,7 @@ export default function ProjectDescription({
         <p>{project.content}</p>
         <button
         className="flex gap-2 pt-12"
-          onClick={() => {
-            setActive(false);
-          }}
+          onClick={setActive}
         >
           <img className="w-6" src="/icons/back.svg" alt="" /> <span className="text-medium">Retour</span>
         </button>

@@ -8,15 +8,13 @@ export default function Card({
 }: {
   project: ProjectType;
   skills?: SkillType[]
-  setActive: (active: boolean) => void;
+  setActive: () => void;
 }) {
   return (
     <article
       className="border bottom-1 w-full flex-1 min-w-[150px] aspect-video flex items-center justify-center cursor-pointer rounded-md"
       style={{ backgroundColor: project.cardColor || "white" }}
-      onClick={() => {
-        setActive(true);
-      }}
+      onClick={setActive}
     >
       <img src={"/icons/" + project.icon} alt="" />
     </article>

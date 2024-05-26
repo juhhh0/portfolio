@@ -11,6 +11,7 @@ export default async function Home() {
   return (
     <main className="pt-12 max-w-4xl mx-auto">
       <Profile />
+
       <Skills skills={data.skills} />
       <h2 className="pb-6 px-4">Mes projets</h2>
       <section className="pb-12 flex flex-wrap gap-6 w-full justify-center">
