@@ -13,7 +13,7 @@ export default function Card({
   return (
     <article
       className="relative border bottom-1 w-full flex-1 min-w-[260px] aspect-video flex items-center justify-center cursor-pointer rounded-md"
-      style={{ backgroundColor: project.cardColor || "black" }}
+      style={{ backgroundColor: project.cardColor || "#0F0F0F" }}
       onClick={() => {
         setActive(true);
       }}

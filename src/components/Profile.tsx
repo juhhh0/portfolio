@@ -16,9 +16,15 @@ export default function Profile() {
       <h1>Joris Mansion</h1>
       <h2>Développeur web basé à Paris</h2>
       <ul className="flex flex-wrap gap-3 justify-center items-center">
-        <IconLabel icon="/icons/linkedin.svg" label="LinkedIn" />
-        <IconLabel icon="/icons/github.svg" label="GitHub" />
-        <IconLabel icon="/icons/email.svg" label="joris.mansion@gmail.com" />
+        <a href="https://www.linkedin.com/in/joris-mansion/" target="_blank">
+          <IconLabel icon="/icons/linkedin.svg" label="LinkedIn" />
+        </a>
+        <a href="https://github.com/juhhh0" target="_blank">
+          <IconLabel icon="/icons/github.svg" label="GitHub" />
+        </a>
+        <a href="mailto:joris.mansion@gmail.com">
+          <IconLabel icon="/icons/email.svg" label="joris.mansion@gmail.com" />
+        </a>
       </ul>
     </motion.section>
   );
