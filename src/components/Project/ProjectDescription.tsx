@@ -1,6 +1,14 @@
+"use client";
+
 import { SkillType } from "@/types/types";
 import React from "react";
 import IconLabel from "../ui/IconLabel";
+import { motion } from "framer-motion";
+
+const variants = {
+  hidden: { opacity: 0, transition: { duration: .7 }},
+  visible: { opacity: 1, transition: { duration: .7, staggerChildren: .8, delay: 1 } },
+};
 
 export default function ProjectDescription({
   project,
@@ -17,42 +25,54 @@ export default function ProjectDescription({
     <section
       className={`fixed z-10 top-0 left-0 w-full h-full overflow-scroll ${
         active
-          ? "opacity-1 pointer-events-auto"
-          : "opacity-0 pointer-events-none"
+          ? "pointer-events-auto"
+          : "pointer-events-none"
       }`}
     >
-      <div className="max-w-4xl mx-auto pt-12 px-4">
-        <img src={"/icons/" + project.icon} alt="" />
-        <h2 className="py-2 text-3xl">{project.title}</h2>
-        <a href={project.link}>{project.link}</a>
-        <p className="py-2">{project.description}</p>
-        <div className="flex gap-2">
-          {project.screens.map((screen: string, i: number) => (
-            <img
-              key={i}
-              src={"/images/" + screen}
-              alt=""
-              className="w-full flex-1 min-w-[150px] aspect-video"
-            />
-          ))}
-        </div>
-        <h3 className="pt-3 pb-2 text-2xl">Mes réalisations</h3>
-        <span>{project.date}</span>
-        <ul className="flex flex-wrap gap-4 md:justify-between py-4">
-          {skills?.map((skill) => (
-            <IconLabel label={skill.title} icon={"/icons/" + skill.icon} />
-          ))}
-        </ul>
-        <p>{project.content}</p>
-        <button
-        className="flex gap-2 pt-12"
-          onClick={() => {
-            setActive(false);
-          }}
-        >
-          <img className="w-6" src="/icons/back.svg" alt="" /> <span className="text-medium">Retour</span>
-        </button>
-      </div>
+      <motion.div
+        initial="hidden"
+        variants={variants}
+        animate={active ? "visible" : "hidden"}
+        className="max-w-4xl mx-auto pt-12 px-4"
+      >
+        <motion.div variants={{hidden: {opacity: 0}, visible: {opacity: 1}}} >
+          <img src={"/icons/" + project.icon} alt="" />
+          <h2 className="py-2 text-3xl">{project.title}</h2>
+          <a href={project.link}>{project.link}</a>
+          <p className="py-2">{project.description}</p>
+          <div className="flex gap-2">
+            {project.screens.map((screen: string, i: number) => (
+              <img
+                key={i}
+                src={"/images/" + screen}
+                alt=""
+                className="w-full flex-1 min-w-[150px] aspect-video"
+              />
+            ))}
+          </div>
+        </motion.div>
+        <motion.div variants={{hidden: {opacity: 0}, visible: {opacity: 1}}} >
+          <h3 className="pt-3 pb-2 text-2xl">Mes réalisations</h3>
+          <span>{project.date}</span>
+          <ul className="flex flex-wrap gap-4 md:justify-between py-4">
+            {skills?.map((skill) => (
+              <IconLabel label={skill.title} icon={"/icons/" + skill.icon} />
+            ))}
+          </ul>
+          <p>{project.content}</p>
+        </motion.div>
+        <motion.div variants={{hidden: {opacity: 0}, visible: {opacity: 1}}} >
+          <button
+            className="flex gap-2 pt-12"
+            onClick={() => {
+              setActive(false);
+            }}
+          >
+            <img className="w-6" src="/icons/back.svg" alt="" />{" "}
+            <span className="text-medium">Retour</span>
+          </button>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

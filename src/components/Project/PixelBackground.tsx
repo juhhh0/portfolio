@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -7,21 +7,17 @@ const anim = {
   initial: {
     opacity: 0,
   },
-  open: (i: number) => ({
+  open: ({ i, d }: { i: number; d: number }) => ({
     opacity: 1,
-    transition: { duration: 0, delay: 0.03 * i },
+    transition: { duration: 0, delay: d * i },
   }),
-  closed: (i: number) => ({
+  closed: ({ i, d }: { i: number; d: number }) => ({
     opacity: 0,
-    transition: { duration: 0, delay: 0.03 * i },
+    transition: { duration: 0, delay: d * i },
   }),
 };
 
-export default function PixelBackground({
-  active,
-}: {
-  active: boolean;
-}) {
+export default function PixelBackground({ active }: { active: boolean }) {
   const shuffle = (a: any) => {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
@@ -38,6 +34,7 @@ export default function PixelBackground({
     const blockSize = innerWidth * 0.05;
     const nbOfBlocks = Math.ceil(innerHeight / blockSize);
     const shuffledIndexes = shuffle([...Array(nbOfBlocks)].map((_, i) => i));
+    const isMobile = innerWidth < 768;
 
     return shuffledIndexes.map((randomIndex: number, index: number) => {
       return (
@@ -47,7 +44,7 @@ export default function PixelBackground({
           variants={anim}
           initial="initial"
           animate={active ? "open" : "closed"}
-          custom={randomIndex}
+          custom={{ i: randomIndex, d: isMobile ? 0.03 : 0.06 }}
         />
       );
     });
