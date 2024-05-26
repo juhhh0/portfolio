@@ -43,7 +43,7 @@ export default function PixelBackground({
       return (
         <motion.div
           key={index}
-          className="w-full h-[5vw] bg-white"
+          className="w-full h-[5vw] bg-gray-100"
           variants={anim}
           initial="initial"
           animate={active ? "open" : "closed"}
