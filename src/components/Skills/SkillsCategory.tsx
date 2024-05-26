@@ -10,7 +10,7 @@ export default function SkillsCategory({
   data: SkillType[];
 }) {
   return (
-    <div>
+    <div className="min-w-[150px]">
       <h3 className="pb-2">{title}</h3>
       <ul className="flex flex-col gap-2">
         {data.map((skill) => (

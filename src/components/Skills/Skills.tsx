@@ -11,7 +11,7 @@ export default function Skills({ skills }: { skills: SkillType[] }) {
   return (
     <section className="py-12 px-4">
       <h2 className="pb-5">Compétences</h2>
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap gap-4 justify-center md:justify-between">
         <SkillsCategory title="Design" data={design} />
         <SkillsCategory title="Frontend" data={frontend} />
         <SkillsCategory title="Backend" data={backend} />
