@@ -23,11 +23,16 @@ export default function Card({
         src={"/icons/" + project.icon}
         alt={project.title + " logo"}
       />
-      <ul className={`absolute flex bottom-0 left-0 gap-2 opacity-65 p-2 ${project.cardColor == "white" ? " invert" : ""}`}>
+      <ul
+        className={`absolute flex bottom-0 left-0 gap-2 opacity-65 p-2 ${
+          project.cardColor == "white" ? " invert" : ""
+        }`}
+      >
         {skills?.map((skill) => (
           <li key={skill.id}>
             <img
-              className="w-6	"
+              title={skill.title}
+              className="w-6"
               src={"/icons/" + skill.icon + "-white.svg"}
               alt={skill.title + " icon"}
             />
