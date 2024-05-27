@@ -1,4 +1,5 @@
 import { ProjectType, SkillType } from "@/types/types";
+import { sendGTMEvent } from "@next/third-parties/google";
 import React from "react";
 
 export default function Card({
@@ -15,6 +16,7 @@ export default function Card({
       className="relative border bottom-1 flex-1 w-full min-w-[280px] aspect-video flex items-center justify-center cursor-pointer rounded-md"
       style={{ backgroundColor: project.cardColor || "#0F0F0F" }}
       onClick={() => {
+        sendGTMEvent({ event: "project_click", value: project.title });
         setActive(true);
       }}
     >
