@@ -7,8 +7,8 @@
       "icon": "essec.svg",
       "image": "essec.png",
       "cardColor": "#1DA1E1",
-      "description": "Le site de l’Essec a pour but de publier des actualités ainsi que de référencer un grand nombre de programmes et d'autres informations liées a leur activité. L'enjeu de ce projet était de rendre le site adaptable, performant et de faciliter la gestion des contenus pour les équipes marketing compte tenu du nombre et de la complexité des données à gérer.",
-      "content": "Lors de mon expérience chez Prodigious (Publicis Groupe), j’ai travailler principalement sur le site de l’essec en gérant le projet dans sa globalité. J’étais en charge de la configuration du CMS, la récupération des données côté serveur puis de l’intégration et la dynamisation des composants. </br> J'ai également été en contact avec le graphiste pour apporter mes conseils UI/UX et m'assurer de la cohérence des maquettes avec les contraintes techniques.",
+      "description": "Le site de l’Essec a pour but de publier des actualités ainsi que de référencer un grand nombre de programmes et d'autres informations liées à leur activité. L'enjeu de ce projet était de rendre le site adaptable, performant et de faciliter la gestion des contenus pour les équipes marketing compte tenu du nombre et de la complexité des données à gérer.",
+      "content": "Lors de mon expérience chez Prodigious (Publicis Groupe), j’ai travaillé principalement sur le site de l’essec en gérant le projet dans sa globalité. J’étais en charge de la configuration du CMS, la récupération des données côté serveur puis de l’intégration et la dynamisation des composants. </br> J'ai également été en contact avec le graphiste pour apporter mes conseils UI/UX et m'assurer de la cohérence des maquettes avec les contraintes techniques.",
       "screens": ["essec-home.png", "essec-programme.png", "essec-search.png", "essec-table.png"],
       "skills": [1, 2, 5, 7, 9, 11]
     },
