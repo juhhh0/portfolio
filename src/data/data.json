@@ -7,7 +7,7 @@
       "icon": "essec.svg",
       "image": "essec.png",
       "cardColor": "#1DA1E1",
-      "description": "Le site de l’Essec a pour but de publier des actualités ainsi que de référencer un grand nombre de programmes et d'autres informations lié a leurs activité. L'enjeu de ce projet était de rendre le site adaptable, performant et de faciliter la gestion des contenus pour les équipes marketing compte tenu du nombre et de la complexité des données à gérer.",
+      "description": "Le site de l’Essec a pour but de publier des actualités ainsi que de référencer un grand nombre de programmes et d'autres informations liées a leur activité. L'enjeu de ce projet était de rendre le site adaptable, performant et de faciliter la gestion des contenus pour les équipes marketing compte tenu du nombre et de la complexité des données à gérer.",
       "content": "Lors de mon expérience chez Prodigious (Publicis Groupe), j’ai travailler principalement sur le site de l’essec en gérant le projet dans sa globalité. J’étais en charge de la configuration du CMS, la récupération des données côté serveur puis de l’intégration et la dynamisation des composants. </br> J'ai également été en contact avec le graphiste pour apporter mes conseils UI/UX et m'assurer de la cohérence des maquettes avec les contraintes techniques.",
       "screens": ["essec-home.png", "essec-programme.png", "essec-search.png", "essec-table.png"],
       "skills": [1, 2, 5, 7, 9, 11]
@@ -18,8 +18,8 @@
       "link": "https://www.members.samsung.fr",
       "icon": "samsung.svg",
       "image": "samsungmembers.svg",
-      "description": "Le site Samsung a pour but de referencer les programmes, partager des actualites",
-      "content": "Hello Samsung",
+      "description": "Le site Samsung Members a pour but de partager des actualités ainsi que des tutoriels aux utilisateurs de produits Samsung.",
+      "content": "J'ai pu lors de mon expérience chez Prodigious, travailler sur le site Samsung Members en tant que développeur front-end. J'ai été en charge de bug fixing, de la dynamisation de composants ainsi que la mise en place d'un mode maintenance paramétrable depuis le back-office.",
       "screens": ["samsung-home.png", "samsung-tutos.png", "samsung-article.png"],
       "skills": [2, 3, 4, 9]
     },
@@ -29,8 +29,8 @@
       "icon": "colas.svg",
       "image": "colas.svg",
       "link": "https://www.solutions-colas.com/fr/",
-      "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
-      "content": "Hello Colas",
+      "description": "Le site Colas Solutions est le site d'une des filière de Colas Rail, il est destiné au professionnels de l’urbanisme et permet de présenter les solutions écologiques que Colas propose.",
+      "content": "J'ai pu lors de mon expérience chez Prodigious, travailler sur la partie accessibilité du site Colas Solutions suite à un audit (aria-attributes, navigation clavier, intégration de composants accessibles).",
       "screens": ["colas-home.png", "colas-article.png", "colas-reseau.png"],
       "skills": [2, 3, 4, 9]
     },
@@ -41,8 +41,8 @@
       "image": "acteon.svg",
       "cardColor": "white",
       "link": "https://www.acteongroup.com/fr/",
-      "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
-      "content": "Hello Colas",
+      "description": "Le site Acteon permet aux professionels de santé de découvrir la gamme de produits et services proposés par le groupe Acteon, ainsi que d'y retrouver les modes d'emplois et autres documents utiles pour leurs produits.",
+      "content": "J'ai pu lors de mon expérience chez Prodigious, travailler sur la partie front-end du site. J'ai fait principalement du bug fixing et de la dynamisation de composant.",
       "screens": ["acteon-home.png", "acteon-menu.png", "acteon-produits.png"],
       "skills": [2, 3, 4, 7, 9]
     }
