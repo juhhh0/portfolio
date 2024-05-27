@@ -14,6 +14,12 @@ const variants = {
   },
 };
 
+const backgroundVariant = {
+  hidden: { backgroundColor: "transparent" },
+  visible: { backgroundColor: "rgb(243, 244, 246) ", transition: { delay: 1 }}
+};
+
+
 export default function ProjectDescription({
   project,
   skills,
@@ -26,9 +32,12 @@ export default function ProjectDescription({
   setActive: (active: boolean) => void;
 }) {
   return (
-    <section
-      className={`fixed z-20 top-0 left-0 w-full h-full overflow-scroll ${
-        active ? "pointer-events-auto project-active" : "pointer-events-none"
+    <motion.section
+    variants={backgroundVariant}
+    initial="hidden"
+    animate={active ? "visible" : "hidden"}
+      className={`fixed z-20 top-0 left-0 w-full h-full ${
+        active ? "pointer-events-auto project-active overflow-x-hidden" : "pointer-events-none"
       }`}
     >
       <motion.div
@@ -76,6 +85,6 @@ export default function ProjectDescription({
           </button>
         </motion.div>
       </motion.div>
-    </section>
+    </motion.section>
   );
 }
