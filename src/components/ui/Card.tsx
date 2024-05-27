@@ -12,7 +12,7 @@ export default function Card({
 }) {
   return (
     <article
-      className="relative border bottom-1 w-full flex-1 min-w-[260px] aspect-video flex items-center justify-center cursor-pointer rounded-md"
+      className="relative border bottom-1 flex-1 w-full min-w-[280px] aspect-video flex items-center justify-center cursor-pointer rounded-md"
       style={{ backgroundColor: project.cardColor || "#0F0F0F" }}
       onClick={() => {
         setActive(true);
@@ -23,7 +23,7 @@ export default function Card({
         src={"/icons/" + project.icon}
         alt={project.title + " logo"}
       />
-      <ul className="absolute flex bottom-0 left-0 gap-2 opacity-65 p-2">
+      <ul className={`absolute flex bottom-0 left-0 gap-2 opacity-65 p-2 ${project.cardColor == "white" ? " invert" : ""}`}>
         {skills?.map((skill) => (
           <li key={skill.id}>
             <img

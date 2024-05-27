@@ -32,6 +32,18 @@
       "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
       "content": "Hello Colas",
       "screens": ["colas-home.png", "colas-article.png", "colas-reseau.png"],
+      "skills": [2, 3, 4, 9]
+    },
+    {
+      "title": "Acteon",
+      "date": "2024",
+      "icon": "acteon-full.svg",
+      "image": "acteon.svg",
+      "cardColor": "white",
+      "link": "https://www.acteongroup.com/fr/",
+      "description": "Le site Colas a pour but de referencer les programmes, partager des actualites",
+      "content": "Hello Colas",
+      "screens": ["acteon-home.png", "acteon-menu.png", "acteon-produits.png"],
       "skills": [2, 3, 4, 7, 9]
     }
   ],
