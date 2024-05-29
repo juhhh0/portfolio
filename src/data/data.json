@@ -119,6 +119,12 @@
       "title": "Figma",
       "icon": "figma",
       "category": "design"
+    },
+    {
+      "id": 13,
+      "title": "NestJS",
+      "icon": "nestjs",
+      "category": "backend"
     }
   ]
 }
